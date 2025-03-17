@@ -8,6 +8,11 @@ package com.mycompany.bloodtestproject;
  *
  * @author Ross
  */
-public class stackInterface {
-    
+public interface stackInterface {
+    public void push(Object e);
+    public Object pop();
+    public Object peek();
+    public boolean isEmpty();
+    public int size();
+    public String displayStack(); 
 }
